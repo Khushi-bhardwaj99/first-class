@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: cursive;
+    background: linear-gradient(white ,rgb(177, 45, 56));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    min-height: 100vh;
+
+}
+.container{
+    
+    background-color: rgb(231, 160, 193);
+    width: 100%;
+    max-width: 530px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px black;
+}
+h1{
+    text-align: center;
+    color: slateblue;
+    margin-bottom: 10px;
+}
+.subtitle{
+    text-align: center;
+    color: black;
+    margin: 25px;
+    
+
+}
+.form-group{
+    margin-bottom: 20px;
+
+}
+label{
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: blue;
+    display: block;
+}
+/* style input fields */
+input,select,textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid grey;
+    font-size: 15px;
+}
+input:focus, select:focus, textarea:focus{
+    border:2px solid rgb(66, 9, 235);
+    outline: none;
+}
+.check{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 2opx;
+}
+.check label{
+    font-weight: normal;
+    margin: 0;
+}
+button{
+    width: 100%;
+    padding: 15px;
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    background-color: green;
+}
+button:hover{
+    background-color: greenyellow;
+}
+
+/* responsive to all devices  */
+@media  screen and (max-width:480px) {
+    body{
+        padding: 10px;
+    }
+    .container{
+        padding: 20px;
+    }
+    h1{
+        font-size: 14px;
+    }
+    input,select,textarea{
+        font-size: 14px;
+    }
+}

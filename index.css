@@ -1,0 +1,129 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: blue;
+    padding: 15px;
+
+}
+nav h2{
+    color: azure;
+}
+nav a{
+    color: azure;
+    text-decoration: none;
+    margin: 10px;
+}
+nav a:hover{
+    color:black;
+    background-color: azure;
+    border-radius: 40px;
+    padding: 5px;
+}
+h1{
+    color: blue;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 3px grey;
+    padding: 10px;
+    
+}
+.intro{
+    color: blueviolet;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    line-height: 1.8;
+
+}
+.card{
+    background-color:blue;
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    margin: 30px auto;
+    border: 4px solid navy;
+    border-radius: 15px;
+    box-sizing:content-box;
+    color: white;
+}
+.btn{
+   background-color: green; 
+   color: white;
+   border-radius: 5px;
+   padding: 10px;
+   border: none;
+
+}
+.btn:hover{
+    background-color: darkmagenta;
+
+
+}
+.box{
+    position: relative;
+    background-color: aquamarine;
+    height: 300px;
+    width: 200px;
+    top: 0;
+    right: 0;
+    padding: 30px;
+    color: white;
+}
+.new{
+    position: absolute;
+    top: 0;
+    right: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+    padding: 5px;
+    transform: rotate(30deg);
+    background-color: rebeccapurple;
+    
+    
+}
+.top{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    background-color: yellow;
+    border-radius: 5px;
+    padding: 6px;
+}
+.skills{
+    display: flex;
+    /* flex-direction: column; */
+
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    background-color: yellowgreen;
+    padding: 30px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: aqua;
+    gap: 15px;
+}
+.grid div{
+    padding: 20px;
+    background-color: aqua;
+
+}
+.banner{
+    background-image: linear-gradient(blue,white);
+    /* background-image: url(); */
+    background-size: cover;
+    width: 100%;
+    padding: 20px;
+    background-position: center;
+}
+
+
+
+
